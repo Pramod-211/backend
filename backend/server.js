@@ -62,7 +62,7 @@ app.get('/api/jokes', (req, res) => {
     // console.log(jokes)
 })
 app.get('/hi', (req, res) => {
-    res.send("hi? what")
+    res.send("hi? what ok h")
 })
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
